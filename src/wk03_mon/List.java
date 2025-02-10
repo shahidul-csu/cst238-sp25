@@ -57,6 +57,8 @@ public class List {
             for(int i = index; i < size - 1; i++){
                 data[i] = data[i + 1];
             }
+            //assign to null if you are not using an object
+            data[size - 1] = null;
             size--;
         }
     }
