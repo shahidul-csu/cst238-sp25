@@ -20,6 +20,10 @@ public class Foo {
         fooCount++;
     }
 
+    public Foo getMe(){
+        return this;
+    }
+
     public static int getFooCount(){
         return fooCount;
     }

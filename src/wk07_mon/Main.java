@@ -4,7 +4,8 @@ public class Main {
     public static void main(String[] args){
         System.out.println("Object count: " + Foo.getFooCount());
         Foo f1 = new Foo();
-//        System.out.println(f1);
+        System.out.println(f1);
+        System.out.println(f1.getMe());
         System.out.println("Object count: " + Foo.getFooCount());
         f1.display();
         System.out.println();
