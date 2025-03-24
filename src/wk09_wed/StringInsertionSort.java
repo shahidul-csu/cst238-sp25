@@ -13,6 +13,8 @@ public class StringInsertionSort {
         print(data);
     }
 
+    //Inner loop comparison count in the worst case = 0 + 1 + 2 + 3 ... + (n-1) = n(n-1)/2
+    // Big O Time Complexity: O(n^2)
     public static void insertionSort(String[] data){
         for(int i = 0; i < data.length; i++){
             int k = i;
