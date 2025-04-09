@@ -37,7 +37,7 @@ class Foo implements Comparable<Foo>{
     String fruit;
     public Foo(int num, String fruit){
         this.num = num;
-        this.fruit = fruit; 
+        this.fruit = fruit;
     }
 
     public int compareTo(Foo other){
@@ -46,7 +46,6 @@ class Foo implements Comparable<Foo>{
     }
 
     //Override
-    @Override
     public String toString() {
         return "[" + this.num + "," + this.fruit + "]";
     }
